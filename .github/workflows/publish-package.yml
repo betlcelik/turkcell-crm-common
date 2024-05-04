@@ -17,4 +17,3 @@ jobs:
         run: mvn deploy
         env:
           GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
-
