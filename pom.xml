@@ -39,4 +39,11 @@
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/betlcelik/turkcell-crm-common</url>
+    </repository>
+  </distributionManagement>
 </project>
